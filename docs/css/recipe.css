@@ -1,0 +1,12 @@
+.divisionTitleStyle {
+    background-color: antiquewhite;
+}
+
+h1#titleStyle{
+    color: rgb(226, 238, 58);
+    text-decoration: underline;
+    margin: auto;
+    width: fit-content;
+   
+    margin-bottom: 30px;
+}
