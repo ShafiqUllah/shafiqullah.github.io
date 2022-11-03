@@ -6,11 +6,18 @@ body {
     background-color: lightcyan;
 }
 
+p#introText {
+    color: rgb(255, 145, 0);
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif, Times, serif,Arial, Arial Black, Verdana;
+    line-height:1em ;
+  }
+
 span#highlightedText {
     color: red;
 }
 
-h3#sectionTitle {
+h3.sectionTitle {
     color: blue;
 }
 
@@ -22,7 +29,7 @@ ul#numaricList {
     list-style: decimal;
 }
 
-a {
+a#bodyLinkStyle {
     text-decoration: none;
     color: orangered;
 }
