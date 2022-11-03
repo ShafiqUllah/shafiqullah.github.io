@@ -29,7 +29,7 @@ ul#numaricList {
     list-style: decimal;
 }
 
-a#bodyLinkStyle {
+a.bodyLinkStyle {
     text-decoration: none;
     color: orangered;
 }
