@@ -1,0 +1,37 @@
+h1 {
+    color: black;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+span#highlightedText {
+    color: red;
+}
+
+h3#sectionTitle {
+    color: blue;
+}
+
+ul#circularList {
+    list-style: circle;
+}
+
+ul#numaricList {
+    list-style: decimal;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+}
+
+
+
+.child {
+    width: 50%;
+    float: left;
+
+    /* border: 2px solid red; */
+}
