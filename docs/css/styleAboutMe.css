@@ -32,14 +32,24 @@ ul#numaricList {
 a.bodyLinkStyle {
     text-decoration: none;
     color: orangered;
+
+    
     
 }
 
-
-
-.child {
-    width: 50%;
-    float: left;
-
-    /* border: 2px solid red; */
+/* a:link {
+    text-decoration: none;
+    color: navy;
 }
+a:visited {
+    text-decoration: none;
+    color: rgb(76, 76, 81);
+} */
+a:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+}
+
