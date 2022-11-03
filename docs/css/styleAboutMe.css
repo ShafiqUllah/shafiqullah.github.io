@@ -13,7 +13,7 @@ p#introText {
     line-height:1em ;
   }
 
-span#highlightedText {
+span.highlightedText {
     color: red;
 }
 
