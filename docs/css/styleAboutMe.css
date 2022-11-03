@@ -21,7 +21,7 @@ h3.sectionTitle {
     color: blue;
 }
 
-ul#circularList {
+ul.circularList {
     list-style: circle;
 }
 
@@ -32,6 +32,7 @@ ul#numaricList {
 a.bodyLinkStyle {
     text-decoration: none;
     color: orangered;
+    
 }
 
 
