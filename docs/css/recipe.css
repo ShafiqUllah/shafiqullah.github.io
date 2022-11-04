@@ -18,3 +18,14 @@ h1#titleStyle{
 .linkStyle{
     color: rgb(221, 221, 13);
 }
+
+.abbribiationStyle{
+    text-decoration: underline;
+}
+
+div.endpart{
+    float: right;
+   
+    margin-top: 20px;
+    
+  }
