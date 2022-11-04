@@ -10,3 +10,11 @@ h1#titleStyle{
    
     margin-bottom: 30px;
 }
+
+.userend{
+    background-color: rgba(245, 241, 10, 0.24);
+}
+
+.linkStyle{
+    color: rgb(221, 221, 13);
+}
