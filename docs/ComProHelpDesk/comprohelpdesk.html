@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/comprohelppage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item headerleft">
+        <img
+          src="../images/compro_icon.jpg"
+          alt="Home Icon"
+          width="30px"
+          height="30px"
+          style="margin: 5px;"
+        />
+        <a class="iconStyle" href="#"> | Compro Help Desk </a>
+      </div>
+
+      <div class="item headerright">
+        <a class="iconStyle" href="#">Agent Portal</a>
+        <a class="iconStyle" href="#">Submit Ticket</a>
+        <a class="iconStyle" href="#">Knowledge Base</a>
+        <a class="iconStyle" href="#">Login</a>
+      </div>
+
+      <div class="item banner">
+        <h1 id="welcomeText">Welcome to Our Support Center</h1>
+      </div>
+
+      <div class="item mainbodyleft">
+        <div>
+          <h3>Login</h3>
+          <p>Login to know the status of the ticket</p>
+          <div>
+            <form id="form" action="" method="POST">
+              <div>
+                <button class="button">
+                  <a href="#">
+                    <img
+                      alt="Login using Azure AD"
+                      src="../images/azure.png"
+                      height="30px"
+                      width="100px"
+                    />
+                  </a>
+                </button>
+
+                <p>-------------------- or login using --------------------</p>
+              </div>
+
+              <div>
+                <label class="labelStyle" for="id_username">
+                  Username or Email
+                </label>
+                <input
+                  class="textfiledStyle"
+                  type="text"
+                  id="id_username"
+                  name="username"
+                  placeholder="Enter email"
+                  value=""
+                  autofocus
+                />
+              </div>
+              <div>
+                <label class="labelStyle" for="id_password">Password</label>
+                <input
+                  class="textfiledStyle"
+                  id="id_password"
+                  type="password"
+                  name="password"
+                  placeholder="Enter password"
+                />
+              </div>
+              <div>
+                <div>
+                  <input
+                    type="checkbox"
+                    checked
+                    name="remember_me"
+                    id="id_remember_me"
+                  />
+                  <label for="id_remember_me">Remember me</label>
+                </div>
+                <a href="#" class="linkTextStyle">Forgot password?</a>
+              </div>
+
+              <div>
+                <button
+                  class="button"
+                  style="background-color: black; color: white"
+                  type="submit"
+                  id="submit"
+                >
+                  Login
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="item mainbodyright">
+        <div>
+          <h3 class="rightbodytextstyle">
+            Login to track your existing support requests. If you have not
+            created a ticket yet then you would need to
+            <a class="linkTextStyle" href="#">register</a> or
+            <a class="linkTextStyle" href="#">create a new ticket</a> to begin.
+          </h3>
+          <button style="background-color: black; margin-top: 15px;">
+            <a
+              class="linkTextStyle"
+              style="background-color: black; color: white"
+              href="#"
+              >Submit ticket</a
+            >
+          </button>
+        </div>
+      </div>
+
+     
+
+      <div class="item footer">
+        <div>
+          <a
+            href="https://validator.w3.org/check?url=https://shafiqullah.github.io/recipe/pie.html"
+          >
+            <img src="../images/w3c-html5-logo.png" alt="W3C HTML Logo" />
+          </a>
+
+          <a
+            href="http://jigsaw.w3.org/css-validator/validator?uri=https://shafiqullah.github.io/recipe/pie.html"
+          >
+            <img src="../images/w3c-css.png" alt="W3C CSS Logo" />
+          </a>
+        </div>
+      </div>
+
+      <div class="item copyright">
+        <span>Copyright 2020, All rights reserved</span>
+      </div>
+    </div>
+  </body>
+</html>
