@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab4 - 1</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div class="login">
+        <form action="#" >
+            <label class="labelStyle" for="emailAddressid">Email Address</label> <br>
+            <input class="textfieldstyle" type="text" id="emailAddressid" placeholder="Enter Email"
+            pattern="[a-zA-Z_\-]+@(([a-zA-Z_\-])+\.)+[a-zA-Z]{2,4}" title="Enter valid email address"> <br>
+            <p style="color: rgba(217,217,217,255);">We'll never share your email with anyone else </p>
+    
+            <label class="labelStyle" for="passwordid">Password</label> <br>
+            <input class="textfieldstyle" type="text" id="passwordid" placeholder="Password" 
+            pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{10,}" title="Enter at least one uppercase , one lowercase ans one letter and length should be at least 10"> <br>
+
+            <label style="margin-top: 10px;" for="checkbox"> <input type="checkbox" value="cheked"> <a class="termAndConditionLink" href="./termAndConditions.html">Check me out</a></label> <br>
+
+            <input id="submitButtonStyle" type="submit" value="Submit"> <br>
+
+            <label style="margin-top: 3em;" class="labelStyle" for="urlCheck">URL Check</label> <br>
+            <input class="textfieldstyle" type="text" id="urlCheck" placeholder="Enter URL"
+            pattern="https?://.+" title="Enter valid URL address"> <br>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
