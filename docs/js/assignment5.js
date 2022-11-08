@@ -117,7 +117,7 @@ function findSecondBiggest(a) {
 
 console.log("12 -> " + findSecondBiggest([19, 9, 11, 0, 12]));
 
-13
+//13
 function printFibo(n, a, b) {
   let arr = [a, b];
   for (let i = 2; i < n; i++) {
