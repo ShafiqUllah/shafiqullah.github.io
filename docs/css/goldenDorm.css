@@ -1,0 +1,45 @@
+.buttonStyle{
+    background-color: rgb(0, 123, 255);
+    border: 0ch solid white;
+    border-radius: 4px;
+    height: 35px;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.formRowStyle{
+    margin: auto;
+    width: 90vw;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    
+    
+}
+
+.box{
+    display: inline-block;
+    margin: 25px;
+    
+}
+
+label.labelStyle{
+    color: black;
+    text-decoration: double;
+    float: left;
+}
+
+.textfieldstyle{
+    width: 450px;
+    border-radius: 8px;
+    border: 2px solid rgba(217,217,217,255);
+    height: 35px;
+}
+
+div.buttonDiv{
+    float: right;
+    margin-right: 65px;
+}
+

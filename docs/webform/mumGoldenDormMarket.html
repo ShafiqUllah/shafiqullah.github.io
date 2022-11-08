@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab4 - 2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/cerulean/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/goldenDorm.css" />
+  </head>
+  <body>
+  
+    <header >
+        <nav class="navbar navbar-light" style="background-color:rgb(52, 166, 232);">
+            <a style="color: white;" class="navbar-brand" href="#">MUM Golden Dorm Market ::: SRM System</a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+          
+            <div  id="navbarSupportedContent">
+              <ul class="navbar-nav list-group list-group-horizontal" >
+                <li class="nav-item active">
+                  <a style="color: white;" class="nav-link" href="#">| Product </span></a>
+                </li>
+                <li class="nav-item">
+                  <a style="color: white;" class="nav-link" href="#">| Supplier</a>
+                </li>
+                
+                
+              </ul>
+              
+            </div>
+
+            <button style="float: right; background-color: whitesmoke; color: black;" class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign out</button>
+
+          </nav>
+    </header>
+        
+
+
+    <div>
+      <h2 style="margin-left: 180px">New Product Form</h2>
+      <form action="#">
+        <div class="formRowStyle">
+          <div class="box">
+            <label class="labelStyle" for="productNum">Product Number</label>
+            <br />
+            <input
+              class="textfieldstyle"
+              id="productNum"
+              type="text"
+              required
+            />
+            <br />
+          </div>
+
+          <div class="box">
+            <label class="labelStyle" for="quantityinStock"
+              >Quantity in Stock</label
+            >
+            <br />
+            <input
+              class="textfieldstyle"
+              id="quantityinStock"
+              type="text"
+              placeholder="0"
+              required
+            />
+            <br />
+          </div>
+        </div>
+
+        <div class="formRowStyle">
+          <div class="box">
+            <label class="labelStyle" for="name">Name</label> <br />
+            <input class="textfieldstyle" id="name" type="text" required />
+            <br />
+          </div>
+
+          <div class="box">
+            <label class="labelStyle" for="supplier">Supplier</label> <br />
+            <!-- <input class="textfieldstyle" id="supplier" type="text" required/> <br /> -->
+
+            <select  class="textfieldstyle" id="supplier"
+              name = "favoritecharacter" required>
+              <option selected>Select a suppiler</option>
+              <option>Jerry</option>
+              <option>George</option>
+              <option> Kramer</option>
+              <option>Elaine</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="formRowStyle">
+          <div class="box">
+            <label class="labelStyle" for="unitPrice">Unit Price</label> <br />
+            <input
+              class="textfieldstyle"
+              id="unitPrice"
+              type="text"
+              placeholder="0.0"
+              required
+            />
+            <br />
+          </div>
+
+          <div class="box">
+            <label class="labelStyle" for="date">Date supplied</label> <br />
+            <input class="textfieldstyle" id="date" type="date" /> <br />
+            <p style="color: rgba(217, 217, 217, 255); float: left">
+              Enter a valid date
+            </p>
+          </div>
+        </div>
+
+        <div class="buttonDiv">
+          <input
+            style="background-color: white; color: blue; border: 2px solid blue"
+            class="buttonStyle"
+            type="reset"
+            name="Reset"
+            id="reset"
+          />
+          <button
+            style="
+              background-color: white;
+              color: rgb(221, 86, 0);
+              border: 2px solid rgb(221, 86, 0);
+            "
+            class="buttonStyle"
+          >
+            Cancel
+          </button>
+          <input
+            style="
+              background-color: white;
+              color: rgb(48, 164, 231);
+              border: 2px solid rgb(48, 164, 231);
+            "
+            class="buttonStyle"
+            type="submit"
+            name="AddProduct"
+            id="addProduct"
+            value="Add Product"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
