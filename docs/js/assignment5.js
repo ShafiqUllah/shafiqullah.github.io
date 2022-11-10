@@ -101,18 +101,18 @@ console.log("multiply([1, 2, 3, 4]) is " + multiply2([1, 2, 3, 4]));
 
 //12
 function findSecondBiggest(a) {
-    let max = a[0];
-    let second = 0;    
-    for (var i = 0, n = a.length; i < n; ++i) {
-        var nr = a[i];    
-        if (nr > max) {
-            second = max; 
-            max = nr;
-        } else if (nr < max && nr > second) {
-            second = nr; 
-        }
+  let max = a[0];
+  let second = 0;
+  for (var i = 0, n = a.length; i < n; ++i) {
+    var nr = a[i];
+    if (nr > max) {
+      second = max;
+      max = nr;
+    } else if (nr < max && nr > second) {
+      second = nr;
     }
-    return second;
+  }
+  return second;
 }
 
 console.log("12 -> " + findSecondBiggest([19, 9, 11, 0, 12]));
@@ -127,3 +127,42 @@ function printFibo(n, a, b) {
 }
 
 console.log("13 (Fibonacci sequence: )-> " + printFibo(10, 0, 1));
+
+//15
+function startTime() {
+  //2019-11-4 12:16:01
+  const today = new Date();
+  let year = today.getFullYear();
+  let month = today.getMonth();
+  let day = today.getDay();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById("txt").innerHTML =
+    year + "-" + month + "-" + day + " " + h + ":" + m + ":" + s;
+}
+
+function checkTime(i) {
+  if (i < 10) {
+    i = "0" + i;
+  } // add zero in front of numbers < 10
+  return i;
+}
+
+const startButton = document.getElementById("start");
+let timer;
+
+startButton.addEventListener("click", function handler() {
+  const initialText = "Start";
+  if (
+    startButton.textContent.toLowerCase().includes(initialText.toLowerCase())
+  ) {
+    startButton.textContent = "Stop";
+     timer = setInterval(startTime, 1000);
+  } else {
+    startButton.textContent = initialText;
+    clearInterval(timer);
+  }
+});
