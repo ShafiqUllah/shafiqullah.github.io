@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body>
+        <form method="post" action="/operation/doOperation">
+            <div>
+                Enter two numbers <br />
+                <input id="firstNum" type="text" name="firstNum" placeholder="fist number" required/><br />
+                <input id="secondNum" type="text" name="secondNum" placeholder="second number" required/><br />
+                <br>
+                <div><label for="operationType">Operation type*</label></div>
+                <div>
+                    <select name="operationType" id="operationType" required>
+                        <option selected value="">Select the Operation you want</option>
+                        <option value="addition">Add (+)</option>
+                        <option value="substruction">Substruct (-)</option>
+                        <option value="multiplication">Multiply (*)</option>
+                        <option value="divition">Divide (/)</option>
+                    </select>
+                </div>
+                <br>
+                <input type="submit" value="Click" />
+            </div>
+        </form>
+    </body>
+</body>
+
+</html>
