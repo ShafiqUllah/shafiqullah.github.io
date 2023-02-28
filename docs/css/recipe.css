@@ -8,7 +8,7 @@
 }
 
 h1#titleStyle{
-    color: rgb(226, 238, 58);
+    color: rgb(166, 175, 39);
     text-decoration: underline;
     margin: auto;
     width: fit-content;
@@ -34,3 +34,9 @@ div.endpart{
     margin-top: 20px;
     
   }
+
+
+#sectionStyle{
+    color: rgb(166, 175, 39);
+   
+}
