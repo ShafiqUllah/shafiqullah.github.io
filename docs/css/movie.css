@@ -59,7 +59,7 @@ h1{
 }
 .overview ul{
     list-style-type: none;
-    padding: none;
+    /* padding: none; */
     
 }
 
