@@ -66,13 +66,13 @@ h1{
 
 
 .moviename{
-    height: 83px;
-    color: red;
+    height: 85px;
+    color: rgba(255, 0, 0, 0.952);
     font-weight: bold;
     font-size: 48pt;
     background-image: url(../images/rbg.png);
     background-repeat: repeat-x;
-    background-size: auto 83px;
+    /* background-size: auto 83px; */
     padding: 0; 
 }
 .moviename img{

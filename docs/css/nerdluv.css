@@ -1,0 +1,49 @@
+label {
+    display: inline-block;
+    width: 160px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gender-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.leg {
+    border: 1px solid grey;
+    background-color: white;
+}
+
+/*.field-set {
+}*/
+
+.gender-text a {
+    text-decoration: none;
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.button{
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+
+.button input {
+    border-radius: 0px;
+    background-color: pink;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-wrapper {
+    border: 1px solid;
+    box-shadow: 2px 2px grey;
+    border-radius: 2px;
+    background-color: rgb(98, 157, 177);
+    width: 500px;
+}
