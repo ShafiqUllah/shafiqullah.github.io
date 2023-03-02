@@ -11,30 +11,30 @@
                 <fieldset class="form-wrapper">
                     <legend class="leg">New User Signup:</legend>
                 <div>
-                    <label for="Student Name">Name: </label>
-                    <input type="text" name="name" size="16"/>
+                    <label for="StudentName">Name: </label>
+                    <input  id = "StudentName" type="text" name="name" size="16"/>
                 </div>
                 
                 <div class="gender-text">
-                    <label for="Student ID">Gender: </label>
-                    <input type="radio" name="gender" value="Male"/> Male
-                    <input type="radio" name="gender" value="Female" checked="checked"/> Female
+                    <label for="Student_ID">Gender: </label>
+                    <input id="Student_ID" type="radio" name="gender" value="Male"/> Male
+                    <input id="Student_ID" type="radio" name="gender" value="Female" checked="checked"/> Female
                 </div>
 
                 <div>
                     <label for="Age">Age: </label>
-                    <input type="text" name="age" size="6" maxlength="2"/>
+                    <input id="Age" type="text" name="age" size="6" maxlength="2"/>
                 </div>
 
                 <div class="gender-text">
-                    <label for="Personality Type">Personality Type: </label>
-                    <input type="text" name="ptype" size="6" maxlength="4"/>
+                    <label for="Personality_Type">Personality Type: </label>
+                    <input id="Personality_Type" type="text" name="ptype" size="6" maxlength="4"/>
                     <a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">(Don't know your type?)</a>
                 </div>
 
                 <div>
-                    <label for="Favorite OS">Favorite OS: </label>
-                    <select name="select" class="gender-text">
+                    <label for="Favorite_OS">Favorite OS: </label>
+                    <select id="Favorite_OS" name="select" class="gender-text">
                         <option value="Windows" selected>Windows</option>
                         <option value="Mac OS X">Mac OS X</option>
                         <option value="Linux">Linux</option>
@@ -42,7 +42,7 @@
                 </div>
 
                 <div>
-                    <label for="Seeking Age">Seeking Age: </label>
+                    <label >Seeking Age: </label>
                     <input type="text" name="min" placeholder="min" size="6" maxlength="2"/> to 
                     <input type="text" name="max" placeholder="max" size="6" maxlength="2"/>
                 </div>
