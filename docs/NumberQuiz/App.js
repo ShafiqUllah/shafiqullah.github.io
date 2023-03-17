@@ -19,6 +19,14 @@ var session;
 
 app.set("view engine", "pug");
 
+app.post("/", function(req, res){
+    session = req.session;
+    if(req.body["question-no"] && req.body["answer"]){
+        session.answers[req.body["question-no"]] = req.body["answer"];
+    }
+    res.redirect("/");
+});
+
 app.get("/", function(req, res){
     session = req.session;
     if(!session.answers){
@@ -43,14 +51,6 @@ app.get("/", function(req, res){
     }
 });
 
-app.post("/", function(req, res){
-    session = req.session;
-    if(req.body["question-no"] && req.body["answer"]){
-        session.answers[req.body["question-no"]] = req.body["answer"];
-    }
-    res.redirect("/");
-});
-
 app.listen(port, function () {
-    console.log(`Number Quiz Lab app listening on port ${port}!`);
+    console.log(`App listening on port ${port}!`);
 });
